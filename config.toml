@@ -1,0 +1,28 @@
+
+baseURL = "http:/ferry-journal.com/"
+languageCode = "id-id"
+title = "An engineer journal"
+defaultContentLanguage = "id"
+
+copyright = "Copyright (c) 2018, Ferry Pratama; all rights reserved."
+MetaDataFormat = "yaml"
+
+# theme to use (located by default in /themes/THEMENAME/)
+themesDir = "themes"
+theme = "enigmo"
+
+disqusShortname = "ferry"
+
+[author]
+    name = "Ferry Pratama"
+    homepage = "https://facebook.com/ffpratama"
+    bio = "Pengamat aja"
+    image = "https://lh5.googleusercontent.com/-h2tLsyijw8Q/AAAAAAAAAAI/AAAAAAAACys/WBpjN_34z3o/s32-c/photo.jpg"
+
+[permalinks]
+    artikel = "/:slug/"
+
+[taxonomies]
+    tag = "topik"
+    category = "kategori"
+    series = "seri"
